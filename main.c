@@ -133,9 +133,10 @@ void game(jogador*x,int quant){
 				}
 			}
 		}
-	}while(op!=1);
 		rodada++;
 		printf("\nrodada %d terminada\n\n",rodada);	
+	}while(op!=1);
+		
 }
 
 
